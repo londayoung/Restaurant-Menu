@@ -67,4 +67,15 @@ public class MenuItem {
     public void setLastUpdateDate(Date lastUpdateDate) {
         this.lastUpdateDate = lastUpdateDate;
     }
+
+    @Override
+    public String toString() {
+        return " \n {" +
+                "name = '" + name + '\'' +
+                ", description = '" + description + '\'' +
+                ", category = '" + category + '\'' +
+                ", price = " + price +
+                ", lastUpdateDate = " + lastUpdateDate +
+                "}";
+    }
 }

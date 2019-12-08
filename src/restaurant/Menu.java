@@ -15,4 +15,12 @@ public class Menu {
         this.menuItems = menuItems;
     }
 
+
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "menuItems=" + menuItems +
+                '}';
+
+    }
 }
